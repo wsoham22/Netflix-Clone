@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Aclonica&family=Anton&family=Bacasime+Antique&family=Black+Han+Sans&family=Fraunces:wght@700&family=Lilita+One&family=Poppins:wght@100&display=swap');
+    *{
+        margin:0;
+        padding:0;
+        background-color: rgb(67, 66, 66);
+    }
+    .container1,.container2,.container3,.container4,.container5,.container6,.container7{
+        background-color: black;
+        margin-top:10px;
+        padding:3px 0 3px 0;
+        height:100vh;
+        margin-bottom:10px;
+        width:100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    } 
+    .container7{
+        height:60vh;
+    }
+    .container6{
+        height:110vh;
+    }
+    .container1{
+        margin-top:0;
+        background-image: url('bggg.jpg');
+        background-size: cover;
+        background-color:transparent;
+    }
+    .container1 select{
+        border-radius: 5px;
+        width:125px;
+        height:38px;
+        background-color: black;
+        color:white;
+    }
+    .container1 select #ok{
+        text-align: center;
+        background-color: white;
+
+    }
+    .container1 img{
+        width:200px;
+        background-color: transparent;
+    }
+    #ok:hover{
+       background-color:blue;
+    }
+
+    .container2 img{
+        width:500px;
+        border:6px solid grey;
+        position: relative;
+        left:100px;
+    }
+    .container4 img{
+        width:500px;
+        /* border:6px solid grey; */
+        position: relative;
+        right:700px;
+    }
+    .container4 h1,p{
+        position: relative;
+        left:560px;
+    }
+    .container3 img{
+        width:500px;
+        /* border:6px solid grey; */
+        position: relative;
+        right:700px;
+    }
+    .container3 h1,p{
+        position: relative;
+        left:560px;
+    }
+    .container5 img{
+        width:500px;
+        /* border:6px solid grey; */
+        position: relative;
+        right:700px;
+    }
+    .container5 h1,p{
+        position: relative;
+        left:560px;
+    }
+    h1,p{
+        background-color :black;
+        color:white;
+        padding:12px 100px 0 0 ;
+    };
+    .tp h1{
+        font-family: 'Anton', sans-serif;
+        font-size: 30px;
+    }
+    p{
+        font-size:30px;
+    }
+    img{
+        background-color: black;
+    }
+    .tp{
+        background-color: black;
+    }
+    .container2 p{
+        position: relative;
+        left:0;
+    }
+    .container1 .sign{
+        font-style: bold;
+        font-size: 15px;
+        font-weight: 25px;
+        background-color: red;
+        color:white;
+        width:80px;
+        height:38px;
+        border-radius: 9px;
+    }
+    .container1 .sign:hover{
+        background-color: rgb(140, 39, 39);
+        transition-duration: 0.3s;
+    }
+    .container1 img{
+        width:150px;
+        position: relative;
+        right:400px;
+        bottom:320px;
+    }
+    .container1 .sec{
+        background-color: transparent;
+    }
+    .container1 #lang{
+        position: relative;
+        bottom:320px;
+        left:450px;
+    }
+        /* //container  */
+        .container{
+            .container{
+            width:70vw;
+            height:40vh;
+            background-color:transparent;
+            text-align: center;
+            position: absolute;
+            left:200px;
+            top:300px;
+            padding:0 20px 0 20px;
+        }
+        }
+        .container #inp{
+            background-color: transparent;
+        }
+        input{
+            background-color: transparent;
+        }
+        .container h1{
+            color:white;
+            background-color: transparent;
+            font-style: bold;
+            font-size: 60px;
+        }
+        .container #man{
+            color:white;
+            font-size: 25px;
+            word-spacing: 2px;
+            background-color: transparent;
+            position: relative;
+            left:300px;
+        }
+        .container #mains{
+            color:white;
+            font-size: 20px;
+            background-color: transparent;
+            position: relative;
+            left:200px;
+
+        }
+        .container .but{
+            background-color: red;
+            color:white;
+            font-size: 20px;
+            width:150px;
+            height:55px;
+            border:2px solid red;
+            border-radius: 5px;
+        }
+        .container .input{
+            width:340px;
+            height:50px;
+            border-radius: 5px;
+            background-color: transparent;
+            padding-left: 13px;
+        }
+        .container{
+            background-color: transparent;
+        }
+        .container1 .container{
+            position: absolute;
+            left:300px;
+            bottom:200px;
+            
+        }
+        .container #inp{
+            background-color: black;
+            color:transparent;
+        }
+        .container #inp,.container .but{
+            position: relative;
+            left:200px;
+            margin-top: 12px;
+        } 
+        .container span{
+            background-color: transparent;
+        }
+        .gridclass #grid{
+            color:white;
+            background-color:black;
+        }
+        .gridclass{
+            background-color: black;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            column-gap:200px;
+            row-gap: 12px;
+            position:absolute;
+            left:400px;
+        }
+        .quest{
+            position: relative;
+            left:100px;
+            bottom:190px;
+            font-size: 20px;
+        }
+        .container6 h1{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size:40px;
+            font-style: bold;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .inner{
+            height:80vh;
+            width:70vw;
+            background-color: black;
+        }
+        .container6 .inner{
+            color:white;
+        }
+        .accordion p{
+            font-size: 17px;
+            background-color: transparent;
+            text-align: left;
+        }
+        .accordion{
+            margin:60pc auto;
+            width:100%;
+            max-width:750px; 
+            background-color: black;
+        }
+        .accordion li{
+            list-style-type: none;
+            width:100%;
+            padding: 5px;
+        }
+        .accordion li label{
+            display: flex;
+            align-items: center;
+            padding:20px;
+            font-size: 18px;
+            font-weight: 500;
+            background: #303030;
+            margin-bottom: 2px;
+            cursor: pointer;
+            position: relative;
+        }
+        label::after{
+            content:'+';
+            font-size: 34px;
+            position: absolute;
+            right:20px;
+            transition: transform 0.5s;
+        }
+        input[type="radio"]{
+            display:none;
+        }
+        .accordion .content{
+            background: #303030;
+            text-align: left;
+            padding:0 20px;
+            max-height: 0;
+            overflow:hidden;
+            transition: max-height 0.5s,padding 0.5s;
+        }
+        .accordion input[type="radio"]:checked + label + .content{
+            max-height: 600px;
+            padding: 30px 20px;
+        }
+        .accordion input[type="radio"]:checked + label + .content:after{
+            transform: rotate(135deg);
+        }
+        .accordion{
+            position: relative;
+            bottom:900px;
+        }
+        .accordion li{
+            background-color: black;
+        }
+        .content{
+            margin:0;
+            padding:0;
+            text-align:left;
+        }
+        .accordion p{
+            position: inherit;
+        }
+        
+</style>
+<body>
+     <div class="container1">
+        <img src="netflix.png" alt="">
+        <div class="sec">
+        <select name="lang" id="lang" placeholder="English" title="select">
+            <option value="" id="ok">English</option>
+            <option value="" id="ok">Hindi</option>
+            <option value="" id="ok">Marathi</option>
+        </select>
+        <button class="sign" id="lang">Sign In</button>
+        <div class="container">
+            <h1 id="main">Unlimited movies, TV shows and more</h1>
+            <p id="man">Watch anywhere. Cancel anytime.</p>
+            <p id="mains">Ready to watch? Enter your email to create or restart your membership.</p>
+            <span><input type="text" placeholder="Email Address" class="input" id="inp"></span>
+            <span><button class="but">Get Started</button></span>
+        </div>
+        </div>
+      
+        <!-- <h1 id="main">Unlimited movies, TV shows and more</h1>
+        <p id="main">Watch anywhere. Cancel anytime.</p>
+        <p id="main">Ready to watch? Enter your email to create or restart your membership.</p>
+        <span id="main"><input type="text" placeholder="Email Address"></span>
+        <span id="main"><button>Get Started</button></span> -->
+
+        <!-- <h1> Unlimited movies, TV shows and more</h1> -->
+         <!-- <h1> Unlimited movies, TV shows and more</h1>
+         <p>Watch anywhere. Cancel anytime.</p>
+         <p>Ready to watch? Enter your email to create or restart your membership.</p>
+        <span><input type="text" placeholder="Email Address"></span>
+        <span><button>Get Started</button></span> -->
+     </div>   
+    <div class="container2">
+        <div class="tp">
+        <h1>Enjoy on your TV</h1>
+        <p>Watch on smart TVs,PlayStation,Xbox,<br>Chromecast,Apple TV,Blueplayers and more.</p>
+        </div>
+        <img src="side.png" alt="">
+
+    </div>
+    <div class="container3">
+        <div class="tp">
+        <h1>Download your shows to <br> watch offline</h1>
+        <p>Save your favourites easily and always <br>have something to watch..</p>
+        </div>
+        <img src="mobile-0819.jpg" alt="">
+
+    </div>
+    <div class="container4">
+        <div class="tp">
+        <h1>Watch everywhere</h1>
+        <p>Stream unlimited movies and TV shows on your <br>phone, tablet, laptop, and TV.</p>
+        </div>
+        <img src="device-pile-in.png" alt="">
+
+    </div>
+    <div class="container5">
+        <div class="tp">
+        <h1>Create profiles for kids</h1>
+        <p>Send children on adventures with their <br>favourite characters in a space made just <br> for them—free with your membership.</p>
+        </div>
+        <img src="AAAABVr8nYuAg0xDpXDv0VI9HUoH7r2aGp4TKRCsKNQrMwxzTtr-NlwOHeS8bCI2oeZddmu3nMYr3j9MjYhHyjBASb1FaOGYZNYvPBCL.png" alt="">
+
+    </div>
+    <div class="container6">
+        <div class="inner">
+            <h1>Frequently Asked Questions</h1>
+            <ul class="accordion">
+                <li>
+                    <input type="radio" name="accordion" id="first">
+                    <label for="first">What is Netflix?</label>
+                    <div class="content">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi officia et laboriosam? Ut porro unde sint inventore iste, iure natus ad, et, corporis possimus quae veritatis repellendus totam adipisci voluptas tempore dicta? Ex, excepturi incidunt.</p>
+                    </div>
+                </li>
+                <li>
+                    <input type="radio" name="accordion" id="second">
+                    <label for="second">How much does Netflix cost?</label>
+                    <div class="content">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi officia et laboriosam? Ut porro unde sint inventore iste, iure natus ad, et, corporis possimus quae veritatis repellendus totam adipisci voluptas tempore dicta? Ex, excepturi incidunt.</p>
+                    </div>
+                </li>
+                <li>
+                    <input type="radio" name="accordion" id="third">
+                    <label for="third">Where can I watch?</label>
+                    <div class="content">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi officia et laboriosam? Ut porro unde sint inventore iste, iure natus ad, et, corporis possimus quae veritatis repellendus totam adipisci voluptas tempore dicta? Ex, excepturi incidunt.</p>
+                    </div>
+                </li>
+                <li>
+                    <input type="radio" name="accordion" id="fourth">
+                    <label for="fourth">How do I cancel?</label>
+                    <div class="content">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi officia et laboriosam? Ut porro unde sint inventore iste, iure natus ad, et, corporis possimus quae veritatis repellendus totam adipisci voluptas tempore dicta? Ex, excepturi incidunt.</p>
+                    </div>
+                </li>
+                <li>
+                    <input type="radio" name="accordion" id="fifth">
+                    <label for="fifth">What can I watch on Netflix?</label>
+                    <div class="content">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi officia et laboriosam? Ut porro unde sint inventore iste, iure natus ad, et, corporis possimus quae veritatis repellendus totam adipisci voluptas tempore dicta? Ex, excepturi incidunt.</p>
+                    </div>
+                </li>
+                <li>
+                    <input type="radio" name="accordion" id="sixth">
+                    <label for="sixth">Is Netflix good for kids?</label>
+                    <div class="content">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi officia et laboriosam? Ut porro unde sint inventore iste, iure natus ad, et, corporis possimus quae veritatis repellendus totam adipisci voluptas tempore dicta? Ex, excepturi incidunt.</p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+    </div>
+    <div class="container7">
+        <p class="quest">Questions? Call <u>000-800-919-1694</u></p>
+        <div class="gridclass">
+            <a href="" target="_blank" id="grid">Cookie Preferences</a>
+            <a href="" target="_blank" id="grid">Help Centre</a>
+            <a href="" target="_blank" id="grid">Account</a>
+            <a href="" target="_blank" id="grid">Jobs</a>
+            <a href="" target="_blank" id="grid">Terms of Use</a>
+            <a href="" target="_blank" id="grid">Only on Netflix</a>
+            <a href="" target="_blank" id="grid">Media Centre</a>
+            <a href="" target="_blank" id="grid">Corporate Information</a>
+            <a href="" target="_blank" id="grid">FAQ</a>
+            <a href="" target="_blank" id="grid">Speed Test</a>
+            <a href="" target="_blank" id="grid">Privacy</a>
+            <a href="" target="_blank" id="grid">Contact Us</a>
+        </div>
+
+       
+    </div>
+    
+    
+</body>
+</html>
